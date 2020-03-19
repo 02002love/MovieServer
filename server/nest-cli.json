@@ -17,13 +17,13 @@
         "tsConfigPath": "apps/server/tsconfig.app.json"
       }
     },
-    "adminweb": {
+    "adminwebapi": {
       "type": "application",
-      "root": "apps/adminweb",
+      "root": "apps/adminwebapi",
       "entryFile": "main",
-      "sourceRoot": "apps/adminweb/src",
+      "sourceRoot": "apps/adminwebapi/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/adminweb/tsconfig.app.json"
+        "tsConfigPath": "apps/adminwebapi/tsconfig.app.json"
       }
     },
     "serverapi": {

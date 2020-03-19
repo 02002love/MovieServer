@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const options = new DocumentBuilder()
-    .setTitle('API 文档')
+    .setTitle('Web 后台管理系统API 文档')
     .setDescription('增删改查')
     .setVersion('1.0')
     .build();
